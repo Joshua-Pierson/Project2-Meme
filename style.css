@@ -1,0 +1,23 @@
+body{
+    background-image: url("./background.jpg");
+    background-size: cover;
+}
+h1{
+    color: red;
+    font-size: xx-large;
+}
+.knewave-regular{
+    font-family: "Knewave", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+#search-form{
+    text-align: center; 
+}
+#search-input{
+    height: 20px;
+    width: 20%;
+}
+.button{
+   background: red;
+}
