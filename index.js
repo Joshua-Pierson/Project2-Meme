@@ -1,7 +1,9 @@
-const api_keys =[
-    "Fd7FytdiyW7KkD4jCo4YZPR5Gslts34L&q=fun&limit=40&offset=0&rating=g&lang=en&bundle=messaging_non_clips",
-    "Fd7FytdiyW7KkD4jCo4YZPR5Gslts34L&q=music&limit=25&offset=0&rating=g&lang=en&bundle=messaging_non_clips",
-    "Fd7FytdiyW7KkD4jCo4YZPR5Gslts34L&q=anime&limit=25&offset=0&rating=g&lang=en&bundle=messaging_non_clips",
+let api_keys =[
+    'Fd7FytdiyW7KkD4jCo4YZPR5Gslts34L&q=fun&limit=40&offset=0&rating=g&lang=en&bundle=messaging_non_clips',
+
+    'Fd7FytdiyW7KkD4jCo4YZPR5Gslts34L&q=music&limit=25&offset=0&rating=g&lang=en&bundle=messaging_non_clips',
+    
+    'Fd7FytdiyW7KkD4jCo4YZPR5Gslts34L&q=anime&limit=25&offset=0&rating=g&lang=en&bundle=messaging_non_clips',
 
 ];
 
@@ -36,4 +38,9 @@ function displayGifs(gifs) {
       display.appendChild(img);
     });
 }
+// Function for random api-key
+function getRandomApiKey() {
+    const randomIndex = Math.floor(Math.random() * api_keys.length);
+    return api_keys[randomIndex];
+  }
 
