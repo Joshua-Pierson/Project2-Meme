@@ -15,7 +15,6 @@ The objective is to create a responsive
     * Google Fonts
     
 
-
 ## User Story
 - Story 1
     As A User, I want to be 
