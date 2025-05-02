@@ -7,7 +7,7 @@ The objective is to create a responsive website that where people search a speci
 ### Main page 
 <img src="./Images/mainPage.png">
 
-### WHen clicked random button
+### When clicked random button
 <img src="./Images/randomButton.png">
 
 ### When using the search bar
