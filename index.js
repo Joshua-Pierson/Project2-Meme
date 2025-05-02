@@ -1,6 +1,7 @@
 const api_key = [
   'Fd7FytdiyW7KkD4jCo4YZPR5Gslts34L',
-  '13mjKb9dWHqVCz8zZPBiWoOgffFyEedi'
+  '13mjKb9dWHqVCz8zZPBiWoOgffFyEedi',
+  `Zz2OIq6K7uXwnawYgdhUWkPWYX4xOMue`
 ];
   
   const form = document.getElementById('search-form');
@@ -23,7 +24,7 @@ const api_key = [
 async function fetchApis(search, keys) {
     for (let api = 0; api < keys.length; api++) {
       const api_key = keys[api];
-      const url = `https://api.giphy.com/v1/gifs/search?api_key=${api_key}&q=${encodeURIComponent(search)}&limit=35&offset=0&rating=g&lang=en&bundle=messaging_non_clips`;
+      const url = `https://api.giphy.com/v1/gifs/search?api_key=${api_key}&q=${encodeURIComponent(search)}&limit=50&offset=0&rating=g&lang=en&bundle=messaging_non_clips`;
   
       try {
         const res = await fetch(url);
@@ -56,9 +57,11 @@ async function fetchApis(search, keys) {
       console.error(err);
     }
   });
+
+
 // to get random Gifs displays
   randomBtn.addEventListener('click', async () => {
-    const totalGifs = 35; // Change this to get more or fewer GIFs
+    const totalGifs = 50; // Change this to get more or fewer GIFs
     const results = [];
     display.innerHTML = '<p>Loading random GIFs...</p>';
   

@@ -1,11 +1,17 @@
-# Tossty Tom's Pizza
+# Meme for Meme
 
 ## Description
-The objective is to create a responsive 
+The objective is to create a responsive website that where people search a specific title and recive 50 meme's and desplays them for the user to see, also there is a random button that gives the user random Gif's / Meme's
 ## Screen Shot
 
 ### Main page 
-<img src="#">
+<img src="./mainPage.png">
+
+### WHen clicked random button
+<img src="./randomButton.png">
+
+### When using the search bar
+<img src="./searchResults.png">
 
 
 ## Technology used
@@ -17,10 +23,10 @@ The objective is to create a responsive
 
 ## User Story
 - Story 1
-    As A User, I want to be 
+    As A User, I want to be able to search specific names and display images for the user to see.
 
 - Story 2
-    As A User, I want a 
+    As A User, I want a be able to click a button and display an assortment of random Gif's/ Meme's
 
 - Story 3
     As a user, I want to
