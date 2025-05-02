@@ -5,13 +5,13 @@ The objective is to create a responsive website that where people search a speci
 ## Screen Shot
 
 ### Main page 
-<img src="./mainPage.png">
+<img src="./Images/mainPage.png">
 
 ### WHen clicked random button
-<img src="./randomButton.png">
+<img src="./Images/randomButton.png">
 
 ### When using the search bar
-<img src="./searchResults.png">
+<img src="./Images/searchResults.png">
 
 
 ## Technology used
