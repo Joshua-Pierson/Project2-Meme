@@ -6,6 +6,7 @@ const api_key = [
   const form = document.getElementById('search-form');
   const input = document.getElementById('search-input');
   const display = document.getElementById('gifs-display');
+  const randomBtn = document.getElementById('random-btn');
   
   // Display GIFs on page
   function displayGifs(gifs) {
@@ -55,4 +56,43 @@ async function fetchApis(search, keys) {
       console.error(err);
     }
   });
-
+// to get random Gifs displays
+  randomBtn.addEventListener('click', async () => {
+    const totalGifs = 35; // Change this to get more or fewer GIFs
+    const results = [];
+    display.innerHTML = '<p>Loading random GIFs...</p>';
+  
+    for (let i = 0; i < totalGifs; i++) {
+      let success = false;
+  
+      for (let api = 0; api < api_key.length; api++) {
+        const key = api_key[api];
+        const url = `https://api.giphy.com/v1/gifs/random?api_key=${key}&rating=g`;
+  
+        try {
+          const res = await fetch(url);
+          if (!res.ok) {
+            console.warn(`Random key ${key} failed with status ${res.status}`);
+            continue;
+          }
+  
+          const data = await res.json();
+          results.push(data.data); // Store the GIF
+          success = true;
+          break; // Break out of API loop if successful
+        } catch (err) {
+          console.warn(`Random key ${key} failed due to network error:`, err);
+        }
+      }
+  
+      if (!success) {
+        console.warn(`Skipping one GIF due to all API keys failing`);
+      }
+    }
+  
+    if (results.length > 0) {
+      displayGifs(results);
+    } else {
+      display.innerHTML = '<p>Could not load any random GIFs.</p>';
+    }
+  });
