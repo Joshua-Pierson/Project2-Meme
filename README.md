@@ -33,7 +33,7 @@ The objective is to create a responsive website that where people search a speci
 
 ## Wireframe
 
-### Mainpage
+### Mainpage after search button clicked
 <img src="./Images/wireframe.png">
 
 ## Next Steps
