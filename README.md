@@ -44,4 +44,3 @@ The objective is to create a responsive website that where people search a speci
 
 ## Author
 Joshua Pierson: <a href="https://www.linkedin.com/in/joshua-pierson726" rel="nofollow">@Linkedin</a>
-  
