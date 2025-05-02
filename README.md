@@ -34,7 +34,7 @@ The objective is to create a responsive website that where people search a speci
 ## Wireframe
 
 ### Mainpage
-<img src="#">
+<img src="./Images/wireframe.png">
 
 ## Next Steps
  * Next step would be to add somthing to the Rewards tabs like a membership/ rewards account where the user can earn points as well as make it easier for the user to be able to order their favrites fast and efficently. 
