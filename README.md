@@ -37,10 +37,10 @@ The objective is to create a responsive website that where people search a speci
 <img src="./Images/wireframe.png">
 
 ## Next Steps
- * Next step would be to add somthing to the Rewards tabs like a membership/ rewards account where the user can earn points as well as make it easier for the user to be able to order their favrites fast and efficently. 
- * I would to work on the responsivenes of the page  when using it on a mobile device.
- * I would also add a menu form to make custom pizzas whith whatever crust, sauce, and topings you want and give it a price.
- * I would also make it so that you can order more then one item and it can caculate the total of all the items.
+* I would also like to add a better front showing for users enjoyment like a moving background and displays of some Gif's/ Meme's
+ * Next step would be to add somthing to the catagory tabs sections and make it so within the sections you can only search for items of that type within that page
+ * I would to work on the responsivenes and display of the page when using it on a mobile device and webpage.
+ * I would also make it 
 
 ## Author
 Joshua Pierson: <a href="https://www.linkedin.com/in/joshua-pierson726" rel="nofollow">@Linkedin</a>
