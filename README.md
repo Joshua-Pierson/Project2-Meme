@@ -22,7 +22,7 @@ The objective is to create a responsive website that where people search a speci
     * Bootstrap
 
 ## Test Site
-<a href="https://joshua-pierson.github.io/Project2-Meme/"> Test Site </a>
+<p> To see Website: <a href="https://joshua-pierson.github.io/Project2-Meme/"> Click Here</a></p>
     
 
 ## User Story
