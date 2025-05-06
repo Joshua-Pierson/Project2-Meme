@@ -38,7 +38,7 @@ The Giphy API is a web-based interface provided by Giphy that allows developers 
     As a user, I want a be able to click the Random GIfs button and display an assortment of random Gif's/ Meme's.
 
 - Story 3
-    As a user, I want to be able to 
+    As a user, I want to be able to view GIFs / Meme's in a responsive setting.
 
 
 ## Wireframe
